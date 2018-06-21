@@ -1,0 +1,31 @@
+h5 {
+    font-weight: bold;
+    
+}
+
+td {
+    text-align: center;
+    vertical-align:middle !important;
+}
+
+.table-primary {
+    font-size: medium;
+}
+
+td img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+td p {
+    margin: 0px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.modal-body {
+    text-align: left;
+}

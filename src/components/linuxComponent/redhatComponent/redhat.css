@@ -1,0 +1,9 @@
+#redhat_list li {
+    vertical-align: bottom;
+}
+
+card img {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+}

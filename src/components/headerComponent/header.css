@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: medium !important;
+    }
+  }
+
+nav {
+  margin-bottom: 1rem;
+}
+
+#logo {
+    margin: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: x-large;
+}

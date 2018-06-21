@@ -1,0 +1,18 @@
+#pc_id {
+    font-weight: bold !important;
+    margin-top: 0px;
+}
+
+h5 {
+    font-weight: bold !important;
+}
+
+.card-text img {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
