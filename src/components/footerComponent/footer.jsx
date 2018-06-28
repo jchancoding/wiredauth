@@ -23,27 +23,26 @@ export default class Footer extends Component {
                     <ul class="footer_ul">
                         <li><Link to="/pc" onclick={this.scrollTop}>Windows Laptops</Link></li>
                         <li><Link to="/mac">Mac Laptops</Link></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Terms and Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><Link to="/remote">Remote Desktops</Link></li>
                     </ul>
                 </div>
             
                 <div class="col-sm">
-                    <h3 class="footer_h3">Useful Links</h3>
+                    <h3 class="footer_h3">Linux Workstations</h3>
                     <ul class="footer_ul">
-                        <li><a href="#">Space Adventure</a></li>
-                        <li><a href="#">Mr. Chicken</a></li>
-                        <li><a href="#">3D Soccer</a></li>
-                        <li><a href="#">Ramses Treasure</a></li>
-                        <li><a href="#">Lucky Christmas</a></li>
+                        <li><Link to="/cel">Cisco Enterprise Linux</Link></li>
+                        <li><Link to="/redhat">Red Hat</Link></li>
+                        <li><Link to="/fedora">Fedora</Link></li>
+                        <li><Link to="/ubuntu">Ubuntu</Link></li>
                     </ul>
                 </div>
             
                 <div class="col-sm"> 
-                    <h3 class="footer_h3 fb">Facebook</h3>
+                    <h3 class="footer_h3 fb">Misc</h3>
+                    <ul class="footer_ul">
+                        <li><Link to="/ethernet">Onsite (In-office) Patching</Link></li>
+                        <li><a href="https://pwreset.cisco.com/">Password Management</a></li>
+                    </ul>
                 </div>
                 </div> 
             </div>
