@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './redhat.css';
 
-import Prism from 'prismjs';
-
 // import images from assets/linux/redhat
 function importAll(r) {
     let images = {};

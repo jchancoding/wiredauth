@@ -43,7 +43,7 @@ export default class Home extends Component {
                         <td className="td_img" id="modal-1">
                                 <img src={images['voice-video.jpg']} alt="Phone Icon" data-toggle="modal" data-target="#modal-1-Center"/>
 
-                                <div className="modal fade" id="modal-1-Center" tabindex="-1" role="dialog" aria-labelledby="modal-1-CenterTitle" aria-hidden="true">
+                                <div className="modal fade" id="modal-1-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-1-CenterTitle" aria-hidden="true">
                                 <div className="modal-dialog modal-dialog-centered" role="document">
                                     <div className="modal-content">
                                     <div className="modal-header">
@@ -64,7 +64,7 @@ export default class Home extends Component {
                         <td className="td_img">
                                 <img src={images['printer.jpg']} alt="Printer Icon" data-toggle="modal" data-target="#modal-2-Center"/>
 
-                                <div className="modal fade" id="modal-2-Center" tabindex="-1" role="dialog" aria-labelledby="modal-2-CenterTitle" aria-hidden="true">
+                                <div className="modal fade" id="modal-2-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-2-CenterTitle" aria-hidden="true">
                                 <div className="modal-dialog modal-dialog-centered" role="document">
                                     <div className="modal-content">
                                     <div className="modal-header">
@@ -106,7 +106,7 @@ export default class Home extends Component {
                     <tr>
                         <td className="td_img">
                             <img src={images['devices.jpg']} alt="Devices Icon" data-toggle="modal" data-target="#modal-3-Center"/>
-                            <div className="modal fade" id="modal-3-Center" tabindex="-1" role="dialog" aria-labelledby="modal-3-CenterTitle" aria-hidden="true">
+                            <div className="modal fade" id="modal-3-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-3-CenterTitle" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                                 <div className="modal-content">
                                 <div className="modal-header">
@@ -126,7 +126,7 @@ export default class Home extends Component {
                         </td>
                         <td className="td_img">
                             <img src={images['router-sw.jpg']} alt="Router/Switches Icon" data-toggle="modal" data-target="#modal-4-Center"/>
-                            <div className="modal fade" id="modal-4-Center" tabindex="-1" role="dialog" aria-labelledby="modal-4-CenterTitle" aria-hidden="true">
+                            <div className="modal fade" id="modal-4-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-4-CenterTitle" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                                 <div className="modal-content">
                                 <div className="modal-header">
@@ -149,7 +149,7 @@ export default class Home extends Component {
                         </td>
                         <td className="td_img">
                             <img src={images['demo.jpg']} alt="Training Devices Icon" data-toggle="modal" data-target="#modal-5-Center"/>
-                            <div className="modal fade" id="modal-5-Center" tabindex="-1" role="dialog" aria-labelledby="modal-5-CenterTitle" aria-hidden="true">
+                            <div className="modal fade" id="modal-5-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-5-CenterTitle" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                                 <div className="modal-content">
                                 <div className="modal-header">
@@ -173,7 +173,7 @@ export default class Home extends Component {
                         </td>
                         <td className="td_img">
                             <img src={images['users.jpg']} alt="Users Icon" data-toggle="modal" data-target="#modal-6-Center"/>
-                            <div className="modal fade" id="modal-6-Center" tabindex="-1" role="dialog" aria-labelledby="modal-6-CenterTitle" aria-hidden="true">
+                            <div className="modal fade" id="modal-6-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-6-CenterTitle" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                                 <div className="modal-content">
                                 <div className="modal-header">
@@ -216,7 +216,7 @@ export default class Home extends Component {
                     <tr>
                         <td className="td_img">
                             <img src={images['exception.jpg']} alt="Devices Icon" data-toggle="modal" data-target="#modal-7-Center"/>
-                            <div className="modal fade" id="modal-7-Center" tabindex="-1" role="dialog" aria-labelledby="modal-7-CenterTitle" aria-hidden="true">
+                            <div className="modal fade" id="modal-7-Center" tabIndex="-1" role="dialog" aria-labelledby="modal-7-CenterTitle" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                                 <div className="modal-content">
                                 <div className="modal-header">

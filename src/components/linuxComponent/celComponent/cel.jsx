@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './cel.css';
 
-import Prism from 'prismjs';
-
 // import images from assets/linux/cel
 function importAll(r) {
     let images = {};

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './fedora.css';
 
-import Prism from 'prismjs';
-
 // import images from assets/linux/fedora
 function importAll(r) {
     let images = {};
