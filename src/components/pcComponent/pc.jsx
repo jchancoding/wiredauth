@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Redirect, Link } from 'react-router-dom';
 import './pc.css';
 
 // import images from assets/pc
@@ -10,7 +11,17 @@ function importAll(r) {
 const images = importAll(require.context('../../assets/pc', false, /\.(png|jpe?g|svg)$/));
 
 export default class PC extends Component {
+    constructor() {
+        super();
+        this.isAuthenticated = sessionStorage.getItem('userAuth')    
+    }
+
   render() {
+    console.log(sessionStorage.getItem('userAuth'))
+    if (sessionStorage.getItem('userAuth') === 'null') {
+        return <Redirect to='/' />;
+    }
+    
     return (
       <div className="container">
         <div className="row">

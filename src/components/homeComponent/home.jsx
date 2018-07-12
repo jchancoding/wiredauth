@@ -9,11 +9,12 @@ function importAll(r) {
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
     return images;
 }
+
 const images = importAll(require.context('../../assets/home', false, /\.(png|jpe?g|svg)$/));
 
 export default class Home extends Component {
-  render() {
-    return (
+    render() {
+    return( 
       <div>
         <div className="container">
             <h5>Welcome</h5>

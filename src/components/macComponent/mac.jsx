@@ -14,7 +14,7 @@ export default class Mac extends Component {
     return (
       <div className="container">
         <div className="row">
-        <button type="button" className="btn btn-outline-danger disabled btn-block">
+            <button type="button" className="btn btn-outline-danger disabled btn-block">
                 <p>There is the Mac Suppliant Issue identified and currently being worked out by AppleCare.</p>
                 <p>If you see any issue please check this <a href="http://wired-auth.cisco.com/macOS_support.html">support page</a>.</p>
             </button>
